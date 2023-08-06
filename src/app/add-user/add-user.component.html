@@ -1,0 +1,74 @@
+<p>add-user works!</p>
+
+
+<div class="container">
+ <form #contactForm="ngForm" (submit)="onSubmit(contactForm)">
+    <!-- <form (ngSubmit)="onSubmit"> -->
+    <!-- <div class="form-group"> -->
+    <label for="username">UserName</label> <br>
+    <input type="text" id="username" name="username" [(ngModel)]="user.userName">
+    
+    <br>
+
+    <label for="email">Email</label> <br>
+    <input type="text" id="email" name="email" [(ngModel)]="user.email">
+
+    <br>
+    <label for="gender">Gender</label> <br>
+    <input type="radio" value="male" id="gender" name="gender" [(ngModel)]="user.gender">Male 
+    <input type="radio" value="female" id="gender"name="gender"[(ngModel)]="user.gender">Female <br>
+   
+    <label for="">PhoneNumber</label> <br>
+    <input type="text" id="phoneNumber" name="phoneNumber" [(ngModel)]="user.phoneNumber">
+
+    <br>
+    <label for="city">City</label> <br>
+    <select  name="city" id="city" [(ngModel)]="user.city"> 
+    <option  [ngValue]="city.id" *ngFor="let city of cities">
+     {{city.city}}
+   </option>
+</select>
+    <br><br>
+    <button type="submit" class="btn btn-primary mt-2">AddUser</button>
+   <!-- </div> -->
+ </form>
+</div>
+
+<!-- --------------------------------------------------- -->
+
+<!-- <div class="container">
+    <form>
+   
+       <label for="username">UserName</label> <br>
+       <input type="text" id="username" name="username">
+       
+       <br>
+   
+       <label for="email">Email</label> <br>
+       <input type="text" id="email" name="email">
+   
+       <br>
+       <label for="gender">Gender</label> <br>
+       <input type="radio" value="male" id="gender" name="gender" >Male 
+       <input type="radio" value="female" id="gender"name="gender">Female <br>
+     
+   
+       <label for="">PhoneNumber</label> <br>
+       <input type="text" id="username" name="username">
+   
+       <br>
+   
+       <label for="city">City</label> <br>
+       <select name="city" id="city"> 
+           <option  value="1">Select</option><br>
+           <option  value="2">Coimbatore</option>
+           <option  value="3">Chennai</option>
+           <option  value="4">Salem</option>
+           <option  value="5">Erode</option>
+       </select>
+       <br><br>
+       <button type="button">AddUser</button>
+   
+    </form>
+   </div>
+    -->

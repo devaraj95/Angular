@@ -1,0 +1,46 @@
+<!-- <h3>User List</h3>
+
+ <ul>
+<li *ngFor="let user of users">{{user.email}}</li>
+</ul> -->
+<div class="container">
+<table class="table table-bordered table-striped">
+<thead >
+    <tr >
+        <!-- <th>Id</th> -->
+        <th>UserName</th>
+        <th>Email</th>
+        <th>PhoneNumber</th>
+        <th>gender</th>
+        <th>City</th>
+        <th>Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let user of user">
+         <!-- <td>{{user.id}}</td>  -->
+         <td>{{user.userName}}</td>
+         <td>{{user.email}}</td>
+         <td>{{user.phoneNumber}}</td>
+         <td>{{user.gender}}</td>
+         <td >
+          
+           {{user.city.city}}
+
+         </td>
+         <td>
+             <div class="button">
+        <button class="btn btn-sm btn-warning" (click)="editUser(user.id)">
+              <i class="fa fa-edit"></i>Edit</button>
+        <button class="btn btn-sm btn-danger"(click)="deleteEmployee(user.id)"style="margin-left:10px">
+              <i class="fa fa-remove"></i>Delete</button>
+            </div>
+        </td>
+      
+    </tr>
+  </tbody>
+</table> <br>
+
+<button class="btn btn-sm btn-success" (click)="addUser()">
+  <i class="fa fa-edit"></i>AddUser</button>
+</div>

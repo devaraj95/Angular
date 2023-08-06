@@ -1,0 +1,181 @@
+ .user>ul{
+
+   font-size: 50px;
+   text-decoration: none;
+ }
+ /* a{
+   font-size: 30px;
+   text-decoration: none;
+   text-align: center;
+ }
+ a:hover{
+   color: red;
+ } */
+
+ a:link, a:visited {
+   background-color: #f44336;
+   color: white;
+   padding: 14px 25px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+ }
+ 
+ a:hover, a:active {
+   background-color: red;
+ }
+ ul{
+   list-style-type: none;
+   /* margin:60px; */
+   list-style-position:outside;
+   text-align: center;
+   margin-top: 10px;
+ }
+ 
+ 
+ 
+ 
+ 
+ /* .container{
+    padding:5px;
+ }
+ body{
+    font-family: 'Open Sans', sans-serif;
+ }
+ .title>h2{
+    padding:10px;
+    font-size: 35px;
+    /* border:1px solid #04AA6D; */
+    /* color:#04AA6D;
+
+ }
+ .row{
+    border: 1px solid black;
+    border: 1px solid #ddd;
+    padding: 20px;
+ }
+ .table-body{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+    padding:10px;
+ }
+ .button{
+
+ }
+ table, th, td {
+    border: 1px solid;
+  }
+  .head{ */
+    /* border:1px solid black; */
+    /* color: hwb(211 0% 53%); */
+    /* background-color: #04AA6D;
+    color: white;
+  }
+ .row>td{
+    padding:10px;
+    text-align: center;
+    font-size: 15px;
+  }
+  .row>th{
+    padding:10px;
+    font-size: 20px;
+  }
+  .button{
+    width: 5%;
+    padding: 10px;
+    text-decoration-color: #04AA6D;
+  } */
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ /* body {
+    color: #404E67;
+    background: #F5F7FA;
+    font-family: 'Open Sans', sans-serif;
+    }
+    .table-wrapper {
+    width: 700px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    }
+    .table-title {
+    padding-bottom: 10px;
+    margin: 0 0 10px;
+    }
+    .table-title h2 {
+    margin: 6px 0 0;
+    font-size: 22px;
+    }
+    .table-title .add-new {
+    float: right;
+    height: 30px;
+    font-weight: bold;
+    font-size: 12px;
+    text-shadow: none;
+    min-width: 100px;
+    border-radius: 50px;
+    line-height: 13px;
+    }
+    .table-title .add-new i {
+    margin-right: 4px;
+    }
+    table.table {
+    table-layout: fixed;
+    }
+    table.table tr th, table.table tr td {
+    border-color: #e9e9e9;
+    }
+    table.table th i {
+    font-size: 13px;
+    margin: 0 5px;
+    cursor: pointer;
+    }
+    table.table th:last-child {
+    width: 100px;
+    }</div>
+    }
+    table.table td a.edit {
+    color: #FFC107;
+    }
+    table.table td a.delete {
+    color: #E34724;
+    }
+    table.table td i {
+    font-size: 19px;
+    }
+    table.table td a.add i {
+    font-size: 24px;
+    margin-right: -1px;
+    position: relative;
+    top: 3px;
+    }
+    table.table .form-control {
+    height: 32px;
+    line-height: 32px;
+    box-shadow: none;
+    border-radius: 2px;
+    }
+    table.table .form-control.error {
+    border-color: #f50000;
+    }
+    table.table td .ad</div> */

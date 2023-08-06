@@ -1,0 +1,18 @@
+.button{
+    padding: 10px;
+}
+.bn{
+    padding:2px;
+    text-align-last: center;
+ 
+}
+ .fn{
+    padding: 0px;
+}
+
+/* button{
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+  } */
+
